@@ -1,0 +1,742 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Figma-13</title>
+		<link
+			rel="stylesheet"
+			href="https://unpkg.com/swiper/swiper-bundle.min.css"
+		/>
+
+		<link rel="stylesheet" href="./src/output.css" />
+	</head>
+	<body>
+		<!-- header -->
+		<header
+			class="flex w-[90%] m-auto max-w-[1440px] pt-5 pb-5 justify-between items-center"
+		>
+			<div class="flex items-center gap-5">
+				<img src="./assets/svg/logoESTES.svg" alt="Logo" />
+				<p class="text-[#646562] leading-5">
+					Официальный партнер <br />
+					АО «ИНТЕКО»
+				</p>
+			</div>
+			<p class="text-lg font-semibold">
+				+7 495 845 19 34 <br />
+				<span class="text-[#a0a747]"> работаем</span>
+			</p>
+		</header>
+
+		<!-- showcase -->
+		<section
+			class="flex flex-col w-[90%] m-auto max-w-[1440px] pt-10 pb-10 justify-between items-center"
+		>
+			<div class="flex flex-col items-center gap-5">
+				<img src="./assets/svg/LogoWestG.svg" alt="Logo" />
+				<p class="text-5xl font-bold text-[#1a1a1a] text-center">
+					Жизнь в зеленом оазисе <br />
+					в статусном районе Москвы
+				</p>
+				<div>
+					<p class="text-2xl text-[#1a1a1a] text-center">
+						Жилой комплекс бизнес-класса в 20 минутах от Кремля
+					</p>
+					<img src="./assets/svg/greenLine.svg" alt="" />
+				</div>
+			</div>
+			<div class="pt-14">
+				<img src="./assets/img/main.png" alt="main" />
+			</div>
+			<div class="flex flex-col items-center gap-5 pt-20">
+				<div class="flex items-center justify-center gap-5">
+					<img class="w-[32%]" src="./assets/img/home1.png" alt="home" />
+					<img class="w-[32%]" src="./assets/img/home2.png" alt="home" />
+				</div>
+				<div class="flex items-center justify-center gap-5">
+					<img class="w-[32%]" src="./assets/img/home3.png" alt="home" />
+					<img class="w-[32%]" src="./assets/img/home4.png" alt="home" />
+				</div>
+			</div>
+			<div class="flex flex-col items-center pt-20">
+				<p class="text-lg text-[#1a1a1a]">Престижное расположение</p>
+				<p class="text-[#1a1a1a] text-5xl font-bold text-center">
+					Один из самых зелёных <br />
+					районов столицы — Раменки
+				</p>
+				<img class="w-[90%] pt-10" src="./assets/img/Map.png" alt="map" />
+				<p class="text-[#1a1a1a] text-lg text-center pt-10 pb-5">
+					ЖК West Garden окружен Матвеевским лесом, набережной реки <br />
+					Раменки и природным заказником «Долина реки Сетунь»
+				</p>
+				<button
+					class="text-[#773844] py-2 px-10 rounded-xl flex items-center gap-5 border border-[#773844] hover:bg-orange-200"
+				>
+					<img src="./assets/svg/img.svg" alt="img" /> Панорама района 360˚
+				</button>
+			</div>
+		</section>
+
+		<!-- swiper -->
+		<section
+			class="flex flex-col w-[90%] m-auto max-w-[1440px] pt-20 pb-10 items-center"
+		>
+			<p class="text-5xl text-[#1a1a1a] font-bold text-center">
+				Наслаждайтесь видами <br />
+				из окон своей квартиры
+			</p>
+			<!-- swiper -->
+			<div dir="rtl" class="swiper mySwiper pt-16">
+				<div class="swiper-wrapper">
+					<div class="swiper-slide">
+						<img src="./assets/img/city.png" alt="city" />
+					</div>
+					<div class="swiper-slide">
+						<img src="./assets/img/city.png" alt="city" />
+					</div>
+					<div class="swiper-slide">
+						<img src="./assets/img/city.png" alt="city" />
+					</div>
+				</div>
+				<div class="swiper-button-next"></div>
+				<div class="swiper-button-prev"></div>
+				<div class="swiper-pagination"></div>
+			</div>
+
+			<div class="flex items-center justify-center pl-[300px] pt-20">
+				<div class="flex flex-col gap-4">
+					<p class="text-[#773844] text-sm">СПЕЦИАЛЬНО ДЛЯ ВАС</p>
+					<p class="text-3xl font-bold text-[#1a1a1a]">
+						Персональная <br />
+						презентация West Garden
+					</p>
+					<p
+						class="flex items-center gap-6 text-[#1a1a1a] text-[20px] font-[400px]"
+					>
+						<img src="./assets/svg/arrowRight.svg" alt="arrow" />Подробно
+						расскажем про жилой комплекс
+					</p>
+					<p
+						class="flex items-center gap-6 text-[#1a1a1a] text-[20px] font-[400px]"
+					>
+						<img src="./assets/svg/arrowRight.svg" alt="arrow" />Ознакомитесь со
+						всеми планировками и ценами
+					</p>
+					<p
+						class="flex items-center gap-6 text-[#1a1a1a] text-[20px] font-[400px]"
+					>
+						<img src="./assets/svg/arrowRight.svg" alt="arrow" />Прогуляетесь по
+						благоустроенной набережной
+					</p>
+					<div class="flex flex-col gap-1 border-t pt-5 pb-3 border-gray-400">
+						<p class="text-sm">Закрепить за номером</p>
+						<div class="flex items-center gap-4 pb-7">
+							<div
+								class="flex items-center gap-1 border rounded-xl border-black px-4 py-2"
+							>
+								<label for="q">+7</label>
+								<input
+									class="outline-none border-none"
+									type="tell"
+									name="q"
+									id="q"
+									placeholder="___ ___-__-__"
+								/>
+							</div>
+							<button class="text-white bg-[#773844] px-5 py-2 rounded-xl">
+								Записаться на презентацию
+							</button>
+						</div>
+						<p class="text-[646562] text-sm">
+							Нажимая на кнопку, вы даёте согласие на обработку персональных
+							данных и соглашаетесь <br />c политикой конфиденциальности
+						</p>
+					</div>
+				</div>
+				<div>
+					<img class="w-[90%]" src="./assets/img/Woman.png" alt="bitch" />
+				</div>
+			</div>
+		</section>
+
+		<p class="text-[#1a1a1a] text-5xl font-bold text-center pb-10">
+			Жилой комплекс состоит <br />
+			из двух кластеров
+		</p>
+
+		<!-- Rezidental Complex -->
+		<section class="pt-10 pb-10 bg-[#1f2057]">
+			<div class="flex flex-col pb-10 gap-10 w-[90%] m-auto max-w-[1440px]">
+				<div class="flex items-end justify-around">
+					<div class="flex flex-col gap-2">
+						<p class="flex items-center gap-5 text-3xl text-white font-bold">
+							River Line
+							<img class="w-[20%]" src="./assets/svg/vawe.svg" alt="img" />
+						</p>
+						<p class="text-white">
+							Восемь жилых корпусов по 12-14 этажей <br />
+							выстроенны вдоль реки Раменки
+						</p>
+					</div>
+					<button class="text-[#1f2057] bg-white rounded-xl px-6 py-2">
+						Посмотреть планировки
+					</button>
+				</div>
+			</div>
+			<img src="./assets/img/slider.png" alt="" />
+		</section>
+
+		<!-- Park Line -->
+		<section class="pt-10 pb-10 bg-[#a0a747]">
+			<div class="flex flex-col pb-10 gap-10 w-[90%] m-auto max-w-[1440px]">
+				<div class="flex items-end justify-around">
+					<div class="flex flex-col gap-2">
+						<p class="flex items-center gap-5 text-3xl text-white font-bold">
+							Park Line
+							<img class="w-[20%]" src="./assets/svg/tree.svg" alt="img" />
+						</p>
+						<p class="text-white">
+							Семь 14-этажных жилых корпусов, <br />
+							расположенных вдоль Матвеевского леса
+						</p>
+					</div>
+					<button class="text-[#1f2057] bg-white rounded-xl px-6 py-2">
+						Посмотреть планировки
+					</button>
+				</div>
+			</div>
+			<img src="./assets/img/slider2.png" alt="slider" />
+		</section>
+
+		<!-- modern -->
+		<section class="flex flex-col w-[60%] m-auto max-w-[1440px] pt-20 pb-10">
+			<p class="font-bold text-5xl text-center">Современная эстетика лобби</p>
+			<div class="flex flex-col gap-5 pt-14">
+				<div class="flex gap-5 items-start justify-start">
+					<img src="./assets/svg/door.svg" alt="door" />
+					<p class="font-semibold text-2xl">Центральные входные группы</p>
+				</div>
+				<div class="flex items-center gap-8">
+					<div class="flex items-center gap-3 bg-[#f7f1e9] px-3">
+						<img src="./assets/svg/star.svg" alt="star" />
+						<p class="">Зоны ожидания и встреч</p>
+					</div>
+					<div class="flex items-center gap-3 bg-[#f7f1e9] px-3">
+						<img src="./assets/svg/star.svg" alt="star" />
+						<p class="">Пост охраны</p>
+					</div>
+					<div class="flex items-center gap-3 bg-[#f7f1e9] px-3">
+						<img src="./assets/svg/star.svg" alt="star" />
+						<p class="">Переговорная комната</p>
+					</div>
+					<div class="flex items-center gap-3 bg-[#f7f1e9] px-3">
+						<img src="./assets/svg/star.svg" alt="star" />
+						<p class="">Колясочная</p>
+					</div>
+				</div>
+				<div class="flex items-center gap-5">
+					<div>
+						<img src="./assets/img/center1.png" alt="center" />
+					</div>
+					<div>
+						<img src="./assets/img/center2.png" alt="center" />
+					</div>
+				</div>
+			</div>
+			<div class="flex flex-col gap-5 pt-14">
+				<div class="flex gap-5 items-start justify-start">
+					<img src="./assets/svg/lift.svg" alt="door" />
+					<p class="font-semibold text-2xl">Лифтовый холл</p>
+				</div>
+				<div class="flex items-center gap-8">
+					<div class="flex items-center gap-3 bg-[#f7f1e9] px-3">
+						<img src="./assets/svg/star.svg" alt="star" />
+						<p class="">2-4 лифта</p>
+					</div>
+					<div class="flex items-center gap-3 bg-[#f7f1e9] px-3">
+						<img src="./assets/svg/star.svg" alt="star" />
+						<p class="">Грузовые и пассажирские</p>
+					</div>
+					<div class="flex items-center gap-3 bg-[#f7f1e9] px-3">
+						<img src="./assets/svg/star.svg" alt="star" />
+						<p class="">Ведущие производители</p>
+					</div>
+				</div>
+				<div class="flex items-center gap-5">
+					<div>
+						<img src="./assets/img/lift1.png" alt="lift" />
+					</div>
+					<div>
+						<img src="./assets/img/lift2.png" alt="lift" />
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- flat -->
+		<section
+			class="flex flex-col w-[60%] m-auto max-w-[1440px] pt-20 pb-10 gap-5"
+		>
+			<p class="font-bold text-5xl text-center pb-10">
+				Более 100 свободных квартир <br />
+				редких форматов
+			</p>
+			<!-- flat1 -->
+			<div class="flex gap-3 bg-white shadow-xl rounded-xl p-5">
+				<div class="flex flex-col gap-8">
+					<p class="font-bold text-3xl">
+						Свободная планировка, возможность объединить квартиры до 500 м²
+					</p>
+					<p class="text-[20px] leading-5">
+						В пентхаусах предусмотрен дымоход с возможностью установки камина,
+						чтобы Вы получали наслаждение от живого тепла в холодное время года
+					</p>
+					<p
+						class="flex items-center gap-6 text-[#0a3ce4] font-semibold text-lg cursor-pointer pt-20"
+					>
+						Узнать стоимость
+						<img class="" src="./assets/svg/ArrowRightBlue.svg" alt="arrow" />
+					</p>
+				</div>
+				<img class="w-[50%]" src="./assets/img/flat1.png" alt="flat" />
+			</div>
+			<!-- flat2 -->
+			<div class="flex gap-3 bg-white shadow-xl rounded-xl p-5">
+				<div class="flex flex-col gap-8">
+					<p class="font-bold text-3xl">Настоящий дровяной камин</p>
+					<p class="text-[20px] leading-5">
+						В пентхаусах предусмотрен дымоход с возможностью установки камина,
+						чтобы Вы получали наслаждение от живого тепла в холодное время года
+					</p>
+					<p
+						class="flex items-center gap-6 text-[#0a3ce4] font-semibold text-lg cursor-pointer pt-32"
+					>
+						Узнать стоимость
+						<img class="" src="./assets/svg/ArrowRightBlue.svg" alt="arrow" />
+					</p>
+				</div>
+				<img class="w-[50%]" src="./assets/img/flat2.png" alt="flat" />
+			</div>
+			<!-- flat2 -->
+			<div class="flex gap-3 bg-white shadow-xl rounded-xl p-5">
+				<div class="flex flex-col gap-8">
+					<p class="font-bold text-3xl">Собственная терраса до 17 м²</p>
+					<p class="text-[20px] leading-5">
+						Современная террасса с необыкновенными видами на благоустроенную
+						набережную, МГУ им. М.В. Ломоносова и Воробьевы горы
+					</p>
+					<p
+						class="flex items-center gap-6 text-[#0a3ce4] font-semibold text-lg cursor-pointer pt-28"
+					>
+						Узнать стоимость
+						<img class="" src="./assets/svg/ArrowRightBlue.svg" alt="arrow" />
+					</p>
+				</div>
+				<img class="w-[50%]" src="./assets/img/flat3.png" alt="flat" />
+			</div>
+			<!-- flat2 -->
+			<div class="flex gap-3 bg-white shadow-xl rounded-xl p-5">
+				<div class="flex flex-col gap-8">
+					<p class="font-bold text-3xl">Увеличенная высота потолка</p>
+					<p class="text-[20px] leading-5">
+						Почувствуйте простор помещений в полной мере с увеличенной высотой
+						потолка 4,2 м
+					</p>
+					<p
+						class="flex items-center gap-6 text-[#0a3ce4] font-semibold text-lg cursor-pointer pt-36"
+					>
+						Узнать стоимость
+						<img class="" src="./assets/svg/ArrowRightBlue.svg" alt="arrow" />
+					</p>
+				</div>
+				<img class="w-[50%]" src="./assets/img/flat4.png" alt="flat" />
+			</div>
+		</section>
+
+		<!-- panarama -->
+		<section
+			class="flex flex-col w-[90%] m-auto max-w-[1440px] pt-10 pb-10 gap-6 items-center"
+		>
+			<p class="font-bold text-5xl">Панорамные окна</p>
+			<p class="text-center text-lg font-medium">
+				Планировки квартир продуманы таким образом, что панорамный <br />
+				вид на город открывается уже при входе в квартиру
+			</p>
+			<p
+				class="flex items-center gap-6 text-[#0a3ce4] font-semibold text-lg cursor-pointer"
+			>
+				Узнать стоимость
+				<img class="" src="./assets/svg/ArrowRightBlue.svg" alt="arrow" />
+			</p>
+			<img src="./assets/img/panarama.png" alt="" />
+		</section>
+
+		<!-- Max comfort -->
+		<section
+			class="flex flex-col w-[60%] m-auto max-w-[1440px] pt-10 pb-20 gap-5"
+		>
+			<p class="font-bold text-5xl text-center pb-10">
+				Максимальный комфорт <br />
+				в квартире
+			</p>
+			<!-- flat1 -->
+			<div class="flex gap-3 bg-white shadow-xl rounded-xl p-5">
+				<div class="flex flex-col gap-8">
+					<p class="font-bold text-3xl">
+						Спальни с собственной гардеробной и санузлом
+					</p>
+					<p class="text-[20px] leading-5">
+						Функциональное и комфортное решение для мастер-спальни придется по
+						душе любителям эффективной оргниации пространства
+					</p>
+					<p
+						class="flex items-center gap-6 text-[#0a3ce4] font-semibold text-lg cursor-pointer pt-20"
+					>
+						Узнать стоимость
+						<img class="" src="./assets/svg/ArrowRightBlue.svg" alt="arrow" />
+					</p>
+				</div>
+				<img class="w-[50%]" src="./assets/img/comfort1.png" alt="flat" />
+			</div>
+			<!-- flat2 -->
+			<div class="flex gap-3 bg-white shadow-xl rounded-xl p-5">
+				<div class="flex flex-col gap-8">
+					<p class="font-bold text-3xl">
+						Окна в ванной <br />
+						и гардеробной
+					</p>
+					<p class="text-[20px] leading-5">
+						Естественное освещение визуально расширяет пространство, а также
+						появляется возможность прямого проветривания комнат
+					</p>
+					<p
+						class="flex items-center gap-6 text-[#0a3ce4] font-semibold text-lg cursor-pointer pt-32"
+					>
+						Узнать стоимость
+						<img class="" src="./assets/svg/ArrowRightBlue.svg" alt="arrow" />
+					</p>
+				</div>
+				<img class="w-[50%]" src="./assets/img/comfort2.png" alt="flat" />
+			</div>
+			<!-- flat3 -->
+			<div class="flex gap-3 bg-white shadow-xl rounded-xl p-5">
+				<div class="flex flex-col gap-8">
+					<p class="font-bold text-3xl">
+						Всегда чистая <br />
+						питьевая вода
+					</p>
+					<p class="text-[20px] leading-5">
+						Во всех корпусах предусмотрена централизованная очистка воды до
+						уровня питьевой
+					</p>
+					<p
+						class="flex items-center gap-6 text-[#0a3ce4] font-semibold text-lg cursor-pointer pt-28"
+					>
+						Узнать стоимость
+						<img class="" src="./assets/svg/ArrowRightBlue.svg" alt="arrow" />
+					</p>
+				</div>
+				<img class="w-[50%]" src="./assets/img/comfort3.png" alt="flat" />
+			</div>
+		</section>
+
+		<!-- which flat  -->
+		<section
+			class="bg-[#a0a747] flex flex-col w-[60%] m-auto max-w-[1440px] gap-8 text-white items-center rounded-xl"
+		>
+			<p class="text-5xl font-bold text-center pt-16">
+				Какая квартира <br />
+				подойдет именно вам?
+			</p>
+			<p class="text-center font-semibold text-3xl text-[#e7e9d3]">
+				Ответьте на 4 вопроса, чтобы подобрать <br />
+				идеальный вариант недвижимости
+			</p>
+			<div class="">
+				<button class="bg-[#1a1a1a] py-2 px-5 rounded-lg">Пройти тест</button>
+			</div>
+			<div class="flex items-center">
+				<div>
+					<img src="./assets/svg/pattern1.svg" alt="path" />
+				</div>
+				<div>
+					<img src="./assets/svg/pattern.svg" alt="path" />
+				</div>
+			</div>
+		</section>
+
+		<!-- Finishing from the developer -->
+		<section
+			class="flex flex-col w-[60%] m-auto max-w-[1440px] gap-5 pb-10 pt-20 items-center"
+		>
+			<div class="flex flex-col items-center gap-5 pb-8">
+				<p class="text-5xl font-bold">Отделка от застройщика</p>
+				<div>
+					<p class="text-xl font-semibold text-center">
+						Экономьте на стоимости ремонта, покупая квартиру с готовой отделкой
+						<img src="./assets/svg/greenLine.svg" alt="" />
+					</p>
+				</div>
+			</div>
+			<div class="flex items-center gap-5">
+				<!-- card1 -->
+				<div class="flex flex-col gap-2 p-2 bg-white rounded-xl shadow-lg">
+					<img src="./assets/img/finishing1.png" alt="img" />
+					<div class="flex flex-col gap-3 p-3">
+						<p class="text-[#1a1a1a] font-semibold text-3xl">
+							Готовый <br />
+							дизайн-проект
+						</p>
+						<p class="text-[20px] leading-5">
+							Воспользуйтесь возможностью <br />
+							сразу же заняться меблировкой и <br />
+							благоустройством новой квартиры, <br />
+							как только получите ключи
+						</p>
+					</div>
+				</div>
+				<!-- card2 -->
+				<div class="flex flex-col gap-2 p-2 bg-white rounded-xl shadow-lg">
+					<img src="./assets/img/finishing2.png" alt="img" />
+					<div class="flex flex-col gap-3 p-3">
+						<p class="text-[#1a1a1a] font-semibold text-3xl">
+							Чистота и тишина,<br />
+							без шума и пыли
+						</p>
+						<p class="text-[20px] leading-5">
+							Воспользуйтесь возможностью <br />
+							сразу же заняться меблировкой и <br />
+							благоустройством новой квартиры, <br />
+							как только получите ключи
+						</p>
+					</div>
+				</div>
+				<!-- card3 -->
+				<div class="flex flex-col gap-2 p-2 bg-white rounded-xl shadow-lg">
+					<img src="./assets/img/finishing3.png" alt="img" />
+					<div class="flex flex-col gap-3 p-3">
+						<p class="text-[#1a1a1a] font-semibold text-3xl">
+							Выгода за счет <br />
+							оптовых закупок
+						</p>
+						<p class="text-[20px] leading-5">
+							Воспользуйтесь возможностью <br />
+							сразу же заняться меблировкой и <br />
+							благоустройством новой квартиры, <br />
+							как только получите ключи
+						</p>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- second option -->
+		<section
+			class="flex flex-col w-[60%] m-auto max-w-[1440px] gap-5 pb-20 pt-20"
+		>
+			<p class="text-[#1a1a1a] text-5xl font-bold text-center">
+				2 варианта отделки
+			</p>
+			<div class="flex items-center justify-between pt-10 pb-5">
+				<p class="text-[#1a1a1a] font-semibold text-3xl">Светлая отделка</p>
+				<button class="text-white bg-[#773844] px-7 py-2 rounded-xl">
+					Скачать дизайн-буклет
+				</button>
+			</div>
+			<div class="flex flex-col gap-3">
+				<div class="flex gap-2 items-center">
+					<div><img src="./assets/img/Light_1.png" alt="img" /></div>
+					<div><img src="./assets/img/Description.png" alt="img" /></div>
+				</div>
+				<div class="flex gap-2 items-center">
+					<div><img src="./assets/img/Light_2.png" alt="img" /></div>
+					<div><img src="./assets/img/Light_3.png" alt="img" /></div>
+				</div>
+			</div>
+			<div class="flex items-center justify-between pt-16 pb-5">
+				<p class="text-[#1a1a1a] font-semibold text-3xl">Тёмная отделка</p>
+				<button class="text-white bg-[#773844] px-7 py-2 rounded-xl">
+					Скачать дизайн-буклет
+				</button>
+			</div>
+			<div class="flex flex-col gap-3">
+				<div class="flex gap-2 items-center">
+					<div><img src="./assets/img/Dark_1.png" alt="img" /></div>
+					<div><img src="./assets/img/Description 2.png" alt="img" /></div>
+				</div>
+				<div class="flex gap-2 items-center">
+					<div><img src="./assets/img/Dark_2.png" alt="img" /></div>
+					<div><img src="./assets/img/Dark_3.png" alt="img" /></div>
+				</div>
+			</div>
+		</section>
+
+		<!-- SHOW -->
+		<section
+			class="flex flex-col w-[60%] m-auto max-w-[1440px] bg-[#773844] rounded-xl relative"
+		>
+			<div class="flex items-center">
+				<!-- left -->
+				<div class="flex flex-col gap-5 pl-8 pt-7 pb-5">
+					<p class="text-white font-bold text-5xl">
+						Посмотрите <br />
+						все планировки <br />
+						и форматы квартир
+					</p>
+					<p class="text-[#d6d1b2] font-semibold text-2xl">
+						Скачайте каталог с планировками,<br />
+						полным описанием и стоимостью
+					</p>
+					<div class="flex items-center gap-3">
+						<button class="text-[#c2bdb6] px-7 rounded-xl bg-white py-2">
+							<span class="text-black text-lg font-bold">+7</span>___ ___-__-__
+						</button>
+						<button class="bg-[#d5b753] px-5 py-2 rounded-xl">
+							Посмотреть планировки
+						</button>
+					</div>
+					<p class="text-[white] opacity-[0.5] text-xs">
+						Нажимая на кнопку, вы даёте согласие на обработку персональных
+						данных и соглашаетесь <br />
+						c политикой конфиденциальности
+					</p>
+				</div>
+				<!-- right -->
+				<div class="">
+					<img
+						class="absolute right-0 bottom-0 w-[50%]"
+						src="./assets/img/124 1.png"
+						alt="book"
+					/>
+				</div>
+			</div>
+		</section>
+
+		<!-- parking -->
+		<section
+			class="flex flex-col w-[90%] m-auto max-w-[1440px] pt-24 pb-10 gap-6"
+		>
+			<p class="text-center text-[#1a1a1a] text-5xl font-bold">
+				Двор без машин -<br />
+				вся парковка под землёй
+			</p>
+			<p class="text-center text-[#1a1a1a] font-semibold text-2xl pb-5">
+				Наслаждайтесь изобилием деревьев и кустарников во дворе,<br />
+				никаких машин — только пустые тротуарные дорожки и обилие <br />
+				цветов и кустарников
+			</p>
+			<img
+				class="w-full"
+				src="./assets/img/Volinskaya_int_cam1_5k_190621 1.png"
+				alt="bigImg"
+			/>
+			<div class="w-[73%] m-auto flex items-center gap-5 pt-8 pb-10">
+				<div><img src="./assets/img/hom1.png" alt="img" /></div>
+				<div><img src="./assets/img/col.png" alt="img" /></div>
+			</div>
+		</section>
+
+		<!-- Green oasis -->
+		<section class="flex flex-col m-auto">
+			<p class="text-[#1a1a1a] font-bold text-5xl text-center">
+				<span class="text-[#a0a747]"> Зелёный оазис</span> <br />
+				в старых границах Москвы
+			</p>
+			<p class="text-center pt-5 pb-10">
+				Погрузитесь в мир будущего с современными архитектурными <br />
+				строениями посреди сада
+			</p>
+			<div>
+				<img class="w-full" src="./assets/img/slider.png" alt="" />
+			</div>
+		</section>
+
+		<!-- bazar -->
+		<section
+			class="flex flex-col w-[60%] m-auto max-w-[1440px] gap-5 pt-20 pb-10"
+		>
+			<p class="text-[#1a1a1a] font-bold text-5xl text-center pb-10">
+				Здоровый и активный <br />
+				образ жизни
+			</p>
+			<div class="flex flex-col items-center gap-3 pb-10">
+				<div class="flex gap-3">
+					<div><img src="./assets/img/sport text.png" alt="sport" /></div>
+					<div><img src="./assets/img/sport.png" alt="sport" /></div>
+				</div>
+				<div class="flex gap-3">
+					<div><img src="./assets/img/doggy.png" alt="img" /></div>
+					<div><img src="./assets/img/relax point.png" alt="img" /></div>
+				</div>
+				<div class="flex gap-3">
+					<div><img src="./assets/img/running.png" alt="img" /></div>
+					<div><img src="./assets/img/walk pleasure.png" alt="img" /></div>
+				</div>
+				<div class="flex gap-3">
+					<div><img src="./assets/img/evening.png" alt="img" /></div>
+					<div><img src="./assets/img/winter ski.png" alt="img" /></div>
+				</div>
+			</div>
+			<div class="flex flex-col bg-[#a0a747] rounded-xl relative">
+				<div class="flex items-center">
+					<!-- left -->
+					<div class="flex flex-col gap-5 pl-8 pt-7 pb-5">
+						<p class="text-white font-bold text-5xl">
+							Узнайте больше <br />
+							про благоустройство <br />
+							ЖК «West Garden»
+						</p>
+						<p class="text-[#d6d1b2] font-semibold text-2xl">
+							скачав подробную PDF-презентацию
+						</p>
+						<div class="flex items-center gap-3">
+							<button class="text-[#c2bdb6] px-7 rounded-xl bg-white py-2">
+								<span class="text-black text-lg font-bold">+7</span>___
+								___-__-__
+							</button>
+							<button class="bg-[#1a1a1a] px-5 py-2 rounded-xl text-white">
+								Скачать презентацию
+							</button>
+						</div>
+						<p class="text-[white] opacity-[0.5] text-xs">
+							Нажимая на кнопку, вы даёте согласие на обработку персональных
+							данных и соглашаетесь <br />
+							c политикой конфиденциальности
+						</p>
+					</div>
+					<!-- right -->
+					<div class="">
+						<img
+							class="absolute right-0 bottom-0 w-[40%]"
+							src="./assets/img/Specular 1.png"
+							alt="book"
+						/>
+					</div>
+				</div>
+			</div>
+			<div class="pt-20">
+				<img src="./assets/img/head.png" alt="" />
+			</div>
+		</section>
+
+		<!-- JavaScript -->
+		<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+		<script>
+			var swiper = new Swiper('.mySwiper', {
+				navigation: {
+					nextEl: '.swiper-button-next',
+					prevEl: '.swiper-button-prev',
+				},
+				pagination: {
+					el: '.swiper-pagination',
+					clickable: true,
+				},
+				autoplay: {
+					delay: 1500,
+					disableOnInteraction: false,
+				},
+			})
+		</script>
+	</body>
+</html>
